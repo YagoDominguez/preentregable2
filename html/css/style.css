@@ -39,7 +39,8 @@ body {background-color: #787878;}
 .header{
     background-color: #3a3b45 ;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
@@ -56,10 +57,4 @@ body {background-color: #787878;}
     column-gap: 50px;
     row-gap: 50px;
     margin-top: 50px;
-    margin-block-end: 50px;
-
-}
-
-.card{
-    width: 50px;
-}
+    margin-block-end: 50px;}
