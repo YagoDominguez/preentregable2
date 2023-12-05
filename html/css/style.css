@@ -1,0 +1,65 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body {color: black;}
+
+body {background-color: #787878;}
+
+.general {background-color: #3a3b45 ;}
+
+
+.photo-grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px;
+    justify-content: center;
+    column-gap: 5px;
+    row-gap: 250px;
+
+}
+
+.grid-item{
+    width: 100%;
+}
+
+
+.grid-titulo{
+    display: flex;
+    justify-content: center;}
+
+.footer{
+    background-color: #3a3b45 ;
+    display: flex;
+}
+
+.header{
+    background-color: #3a3b45 ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar-brand{
+    width:300px;
+}
+
+
+.container-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-top: 50px;
+    margin-block-end: 50px;
+
+}
+
+.card{
+    width: 50px;
+}
