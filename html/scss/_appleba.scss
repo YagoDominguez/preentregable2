@@ -1,0 +1,14 @@
+.navbar-brand{
+    width:300px;
+}
+
+.photo-grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px;
+    justify-content: center;
+    column-gap: 5px;
+    row-gap: 250px;
+}
+
+
